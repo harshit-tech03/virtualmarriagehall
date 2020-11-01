@@ -1,0 +1,40 @@
+
+
+
+.left{
+		background:Ghostwhite;
+		width:25%;
+		height:200PX;
+		padding:20px 5PX 50PX;
+		display:INLINE-BLOCK;
+		height:100vh;
+
+		}
+	  img{
+		 DISPLAY:BLOCK;
+		 MAX-WIDTH:75%;
+		 MAX-HEIGHT:65%;
+		 BORDER: 1PX SOLID #000000;
+		 MARGIN:20PX AUTO;
+
+		}
+
+
+		 .right
+		 {
+		DISPLAY:INLINE-BLOCK;
+		WIDTH: 73%;
+		FLOAT:RIGHT;
+		}
+		@media screen and (max-width: 720px) {
+			.right {
+				display: inline-block;
+				position : relative;
+				font-size: small;
+			}
+				footer {
+					position: relative;
+					display: flex;
+				}
+				
+		}
